@@ -1,7 +1,7 @@
 public enum Enum {
 
-    MALE("male"),
-    FEMALE("female");
+    MALE(""),
+    FEMALE("");
     public void setGender(String gender) {
         this.gender = gender;
     }
