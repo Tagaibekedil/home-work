@@ -4,6 +4,7 @@ public class Main {
     static final String USER = "postgres";
     static final String PASS = "postgres";
     static final String QUERY = " select id,age,login,fulname,email,gender from users";
+
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
              Statement stmt = conn.createStatement();
